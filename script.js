@@ -24,10 +24,20 @@ window.document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#result").innerHTML = inputText.charAt(0).toUpperCase() + inputText.slice(1);
     });
 
+    // Botão Limpar
     window.document
     .querySelector("#btnLimpar")
     .addEventListener("click", function () {
       document.querySelector("#input-text").value = "";
       document.querySelector("#result").innerHTML = "";
     });
+
+
+    window.document
+    .querySelector("#btnDuplicar")
+    .addEventListener("click", function () {
+      let input = document.querySelector("#input-text").value;
+      document.querySelector("#result").innerText = input + " " + input;
+    });
+
 });
