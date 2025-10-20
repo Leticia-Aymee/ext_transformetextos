@@ -52,12 +52,14 @@
     cursor: pointer;
     padding: 3px;
     border-radius: 3px;
-    border: 2px solid #000;
+    border: 1px solid #000;
     
 }
 
+/* Desafio */
+
 .result {
-    width: 100%;
+    width: 160px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -65,7 +67,16 @@
     height: 60px;
     background-color: #fff;
     font-size: 0.8rem;
-   
+    text-align: left;
 }
 
-/* Desafio */
+.rodape {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #0040ff;
+}
