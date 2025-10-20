@@ -23,4 +23,11 @@ window.document.addEventListener("DOMContentLoaded", function () {
       let inputText = document.querySelector("#input-text").value;
       document.querySelector("#result").innerHTML = inputText.charAt(0).toUpperCase() + inputText.slice(1);
     });
+
+    window.document
+    .querySelector("#btnLimpar")
+    .addEventListener("click", function () {
+      document.querySelector("#input-text").value = "";
+      document.querySelector("#result").innerHTML = "";
+    });
 });
